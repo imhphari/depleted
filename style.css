@@ -56,9 +56,15 @@ html , body {
 	margin: 0 auto;
 }
 
+#about h1 {
+	color: rgba(0,0,255,0.5);
+}
+
 #about p {
-	padding-left: 5%;
-	font-size: 130%;
+	padding-left: 3%;
+	font-size: 140%;
 	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.3em;
 }
 /* --------- about ends ----------- */
