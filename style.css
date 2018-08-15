@@ -1,58 +1,67 @@
-html,body{
+html , body {
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	height: 100vh;
-	overflow-x: hidden;
-}
-
-.pos{
-	position: absolute;
+	width: 100% 100%;
 }
 
 .acme{
 	font-family: 'Acme', sans-serif;
 	font-size: 30px;
-color: #003CF7!important;
-	
+	color: #003CF7 !important;
 }
 
-	
 #particles-js
 {
 	width: 100%;
 	height: 100%;
 	background: #F8F8F8;
 	position: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
-.naav{
-	position: absolute;
-	margin-right: 50px;
+#logo {
+		text-align: center;
+	  /* position: absolute; */
+		width: 75%;
+		margin: 7% auto auto auto ;
 }
 
-.logo
-  {
-    left: 0;
-	text-align: center;
-	  position: absolute;
-    margin-top: 10%;
-	  margin-left: 10%;
-    width: 80%;
-	
-    
-  }
-.centertext
-  {
-    left: 0;
-    top: 10%;
+
+/* --------- navigation bar starts ----------- */
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: -50px; 							/* Hide the navbar 50 px outside of the top view */
     width: 100%;
-    text-align: center;
+    transition: top 0.2s; 		/* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    display: block;
     color: white;
-   position: absolute;
-    font-size: 75px;
-    font-family: 'Josefin Sans', sans-serif;
-  }
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+		font-size: 20px;
+}
+
+/* style for navbar links on hover effect */
+#navbar a:hover {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+}
+/* --------- navigation bar ends ----------- */
+
+/* --------- about starts ----------- */
+#about {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#about p {
+	padding-left: 5%;
+}
