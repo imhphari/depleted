@@ -31,7 +31,7 @@ html , body {
 
 /* --------- navigation bar starts ----------- */
 #navbar {
-    background-color: #333;
+    background-color: #ccc;
     position: fixed;
     top: -50px; 							/* Hide the navbar 50 px outside of the top view */
     width: 100%;
@@ -46,13 +46,7 @@ html , body {
     text-align: center;
     padding: 25px;
     text-decoration: none;
-		font-size: 20px;
-}
-
-/* style for navbar links on hover effect */
-#navbar a:hover {
-    background-color: rgba(255,255,255,0.8);
-    color: black;
+		font-size: 25px;
 }
 /* --------- navigation bar ends ----------- */
 
@@ -64,4 +58,7 @@ html , body {
 
 #about p {
 	padding-left: 5%;
+	font-size: 130%;
+	text-align: justify;
 }
+/* --------- about ends ----------- */
