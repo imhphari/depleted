@@ -57,7 +57,8 @@ html , body {
 }
 
 #about h1 {
-	color: rgb(0, 146, 227);
+	/* color: rgb(0, 70, 255); */
+	color: rgb(0, 93, 170);
 }
 
 #about p {
