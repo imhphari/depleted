@@ -81,3 +81,14 @@ html , body {
 	width: 90%;
 	margin: 1% auto auto 5%;
 }
+
+#team .acm_teams {
+	width: 100%;
+}
+
+#team .acm_teams a img {
+	width: 18.5%;
+	height: 20%;
+	margin-top: 2%;
+}
+/* --------- team ends ----------- */
