@@ -4,6 +4,10 @@ html , body {
 	width: 100% 100%;
 }
 
+:root {
+	--heading-color: rgb(0, 93, 170);
+}
+
 .acme{
 	font-family: 'Acme', sans-serif;
 	font-size: 30px;
@@ -51,14 +55,16 @@ html , body {
 /* --------- navigation bar ends ----------- */
 
 /* --------- about starts ----------- */
-#about {
+#about , #team {
 	width: 80%;
 	margin: 0 auto;
 }
 
-#about h1 {
+#about h1 , #team h1 {
 	/* color: rgb(0, 70, 255); */
-	color: rgb(0, 93, 170);
+	font-size: 300%;
+	color: var(--heading-color);
+	letter-spacing: 0.5px;
 }
 
 #about p {
@@ -69,3 +75,9 @@ html , body {
 	line-height: 1.3em;
 }
 /* --------- about ends ----------- */
+
+/* --------- team starts ----------- */
+#team img {
+	width: 90%;
+	margin: 1% auto auto 5%;
+}
