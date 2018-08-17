@@ -89,12 +89,68 @@ a:hover {
 .logo {
 		
 	  /* position: absolute; */
-		margin-top: 13%;
-		align-content: center;
+		margin-top: 4%;
+		
 		width: 26%;
 		margin-left: 37%;
 		align-content: center;
 }
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-top: 40%;
+	  align-content: center;
+	  width: 45%;
+	  margin-left: 26%;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+	.logo{
+    margin-top: 40%;
+	  align-content: center;
+	  width: 45%;
+	  margin-left: 26%;
+	}
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+	.logo{
+		align-content: center;
+		width: 25%;
+		margin-left: 260px;
+		margin-top: 150px;
+	}
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .logo {
+        margin-left: 37%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .content {
+        margin-left: 17%;
+    }
+}
+
+
+
 .img-fluid{
  max-width: 100%;
   height: auto;
@@ -153,12 +209,12 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-  font-size: 16px;
+  font-size: 30px;
   font-weight: 400;
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family:'Signika', sans-serif;
 }
 
 @media (min-width: 768px) {
