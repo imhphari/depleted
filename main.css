@@ -95,7 +95,10 @@ a:hover {
 		margin-left: 37%;
 		align-content: center;
 }
-
+.img-fluid{
+ max-width: 100%;
+  height: auto;
+}
 header.masthead {
   text-align: center;
   color: white;
