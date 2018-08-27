@@ -58,8 +58,8 @@
     </nav>
 
     <!-- Header -->
-    <header class="masthead">
-      <div class="container">
+    <header class="masthead d-flex align-items-center h-100">
+      <div class="container"  >
        <div align="center" class="logo">
 		   <img src="acmlogos/acm.png" class="img-fluid" width="900em"></div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Know us!</a>
@@ -1046,7 +1046,20 @@ Overall, there were 18 teams of 2 evenly spread across the 2nd and 3rd years. Ul
 
    <script src="js/manual.js"></script>
 	  <script src="jquery.easing.js"></script>
-
+    <script>
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop(); // how many pixels you've scrolled
+        console.log(scroll);
+        var ht = $('.masthead').height(); // height of div1 in pixels
+        console.log(ht);
+        // if you've scrolled further than the top of div1 plus it's height
+        // change the color. either by adding a class or setting a css property
+        if(scroll < ht){
+            console.log("Entered");
+            $('.nav-item').addClass('white-text');
+        }
+    });
+    </script>
   </body>
 
 </html>
