@@ -2,7 +2,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat-regular', sans-serif;
 }
 
 a {
@@ -267,8 +267,9 @@ section h3.section-subheading {
 }
 
 #mainNav .navbar-brand {
-    color: #4B63DA;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+    color:#141860;
+    font-family: 'Montserrat-regular', sans-serif;
+	font-weight: bold;
 }
 
 #mainNav .navbar-brand.active,
@@ -276,15 +277,17 @@ section h3.section-subheading {
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
     color: #4B63DA;
+	font-weight: bold;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
-    font-weight: 400;
+    font-weight: 550;
     padding: 0.75em 0;
     letter-spacing: 1px;
     color: black;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+    font-family: 'Montserrat-regular', sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
