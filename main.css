@@ -252,13 +252,13 @@ header.masthead {
 
 
 section {
-    padding: 100px 0;
+    padding: 10	px 0;
 }
 
 section h2.section-heading {
     font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 15px;
+    margin-top: -70px;
+    margin-bottom: 0px;
 	font-family: 'Montserrat-bold', sans-serif;
 	font-size: 2rem;
     line-height: 1.667;
