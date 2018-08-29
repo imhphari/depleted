@@ -14,6 +14,9 @@ a:hover {
     color: #4B63DA !important;
 }
 
+.container-fluid{
+	margin-left: 10%!important;
+}
 header.masthead {
     text-align: center;
     color: white;
@@ -34,6 +37,13 @@ header.masthead {
 
 section {
     padding: 10	px 0;
+}
+
+.secbg{
+	 background: url("pics/apple-devices-computer-contemporary-234527.jpg");
+    height: 100% !important;
+    margin-top: 0 !important;
+	margin-right: 0%;
 }
 
 section h2.section-heading {
@@ -62,6 +72,9 @@ section h3.section-subheading {
     /*font-family: 'Signika', sans-serif;*/
 }
 
+#team .section-heading{
+	color: aliceblue;
+}
 .text-primary {
     color: #4B63DA !important;
 }
@@ -86,13 +99,14 @@ section h3.section-subheading {
 .team-member img {
     width: 225px;
     height: 225px;
-    border: 7px solid #fff;
+    image-orientation:10%;
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+	color:whitesmoke;
 }
 
 .team-member p {
