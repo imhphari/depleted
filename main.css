@@ -14,7 +14,6 @@ a:hover {
     color: #4B63DA !important;
 }
 
-<<<<<<< HEAD
 .container-fluid{
 	margin-left: 10%!important;
 }
@@ -117,11 +116,6 @@ a:hover {
     opacity: 0.75;
   }
 }
-=======
-/*.container-fluid{
-    margin-left: 10%!important;
-}*/
->>>>>>> d56f8fd6b231e36ea1704d43d8292557ae89163a
 header.masthead {
     text-align: center;
     color: white;
@@ -144,28 +138,28 @@ header.masthead {
       height: 100%;
   }
 section {
-    padding: 10 px 0;
+    padding: 10	px 0;
 }
 
 .secbg{
-     background: url("pics/apple-devices-computer-contemporary-234527.jpg");
-    /*height: 100% !important;*/
+	 background: url("pics/apple-devices-computer-contemporary-234527.jpg");
+    height: 100% !important;
     margin-top: 0 !important;
-    margin-right: 0%;
+	margin-right: 0%;
 }
 
 section h2.section-heading {
     font-size: 40px;
     margin-top: -70px;
     margin-bottom: 0px;
-      font-family: 'Montserrat-bold', sans-serif;
-      font-size: 2rem;
+	  font-family: 'Montserrat-bold', sans-serif;
+	  font-size: 2rem;
     line-height: 1.667;
     color: #07617d;
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
-      font-weight: bold;
+	  font-weight: bold;
 }
 
 section h3.section-subheading {
@@ -174,7 +168,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Montserrat-regular', sans-serif;
-      font-size: 1.6rem;
+	  font-size: 1.6rem;
     line-height: 1.8;
     color: #4f4f4f;
     /*font-family: 'Signika', sans-serif;*/
@@ -182,10 +176,10 @@ section h3.section-subheading {
 
 
 .tab {
-    /*margin-left: 40%;*/
+    margin-left: 40%;
     border:none;
     background-color: transparent;
-    padding-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 /* Style the buttons inside the tab */
@@ -196,16 +190,16 @@ section h3.section-subheading {
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    border-radius: 10px;
+	border-radius: 10px;
     transition: 0.3s;
     font-size: 17px;
-    color: wheat;
+	color: wheat;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
     background-color:#0750EC;
-    
+	
 }
 
 /* Create an active/current tablink class */
@@ -233,7 +227,7 @@ section h3.section-subheading {
 
 
 #team .section-heading{
-    color: aliceblue;
+	color: aliceblue;
 }
 .text-primary {
     color: #4B63DA !important;
@@ -266,7 +260,7 @@ section h3.section-subheading {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
-    color:whitesmoke;
+	color:whitesmoke;
 }
 
 .team-member p {
@@ -331,7 +325,7 @@ section h3.section-subheading {
 #mainNav .navbar-brand {
     color:#141860;
     font-family: 'Montserrat-regular', sans-serif;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 #mainNav .navbar-brand.active,
@@ -339,7 +333,7 @@ section h3.section-subheading {
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
     color: #4B63DA;
-    font-weight: bold;
+	font-weight: bold;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -348,7 +342,7 @@ section h3.section-subheading {
     padding: 0.75em 0;
     letter-spacing: 1px;
     color: black;
-    
+	
     font-family: 'Montserrat-regular', sans-serif;
 }
 
@@ -362,7 +356,6 @@ section h3.section-subheading {
 @media (min-width: 768px) {
     section {
         padding: 150px 0;
-        padding-bottom: 50px;
     }
 }
 
@@ -404,10 +397,6 @@ section h3.section-subheading {
         align-content: center;
         width: 45%;
         margin-left: 26%;
-    }
-    section {
-        padding: 150px 0;
-        padding-bottom: 50px;
     }
 }
 
@@ -457,3 +446,39 @@ section h3.section-subheading {
         background-size: 130vw !important;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
